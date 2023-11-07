@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+	color:aqua;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+	
+
+}
+
+.counter {
+    margin: 20px 0;
+}
+#increment-btn,
+#decrement-btn,
+#reset-btn {
+    height: 70px;
+    width: 150px;
+    font-size: 46px;
+    margin: 10px;
+}
+#counter-value {
+    font-size: 52px; 
+    padding: 30px; 
+    border: 12px solid rgb(237, 53, 53); 
+    width: 150px;
+    height: 150px; 
+    display: inline-block; 
+    margin: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(250, 2, 2, 0.764);
+}
+
+.modal-content {
+    background-color: rgb(254, 254, 254);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #4e3c3c;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
